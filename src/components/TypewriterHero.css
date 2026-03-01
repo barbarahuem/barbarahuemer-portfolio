@@ -1,0 +1,12 @@
+.cursor {
+  position: relative;
+  color: var(--accent-color);
+  bottom: 0.1em;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

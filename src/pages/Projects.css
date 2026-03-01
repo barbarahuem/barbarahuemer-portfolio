@@ -1,0 +1,45 @@
+.projects {
+  text-align: left;
+}
+
+.projects h3 {
+  margin-top: 0;
+}
+
+.projects span {
+  color: var(--accent-color);
+}
+
+.projects_grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  gap: 4rem;
+}
+
+.grid_item {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.image_container img {
+  display: flex;
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px dashed var(--main-light-color);
+  transition: transform 0.25s;
+  padding: 5px;
+}
+
+.image_container:hover {
+  transform: scale(1.1);
+}
+
+@media (prefers-color-scheme: light) {
+  .image_container img {
+    border: 1px dashed var(--main-dark-color);
+  }
+}

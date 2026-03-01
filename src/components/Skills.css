@@ -1,0 +1,33 @@
+.skills_grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.skills_grid_item {
+  display: flex;
+  justify-content: center;
+
+  border: 1px dashed var(--main-light-color);
+  transition: transform 0.25s;
+  padding: 20px;
+}
+
+.skills_grid_item svg {
+  width: 30px;
+  height: 30px;
+  stroke: var(--main-light-color);
+}
+
+.skills_grid_item:hover {
+  transform: scale(1.2);
+}
+
+@media (prefers-color-scheme: light) {
+  .skills_grid_item {
+    border: 1px dashed var(--main-dark-color);
+  }
+  .skills_grid_item svg {
+    stroke: var(--main-dark-color);
+  }
+}

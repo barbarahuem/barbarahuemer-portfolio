@@ -1,0 +1,81 @@
+:root {
+  font-family: inconsolata;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--main-light-color);
+  background-color: var(--main-dark-color);
+
+  --main-light-color: #ffffff;
+  --main-dark-color: #1a1a1a;
+  --accent-color: #f15628;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: inconsolata;
+  src: url(./assets/font/Inconsolata_SemiExpanded-Bold.ttf);
+}
+
+a {
+  font-weight: 500;
+  color: var(--main-light-color);
+}
+
+a.active {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+body {
+  margin: 70px 0;
+  display: flex;
+  place-items: center;
+  min-width: 120px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  padding: 0.75em 1.5em;
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--main-light-color);
+  font-size: 1em;
+  font-family: inconsolata;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: var(--main-light-color);
+  color: var(--accent-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
+  }
+  a {
+    color: var(--main-dark-color);
+  }
+  button {
+    color: var(--main-dark-color);
+  }
+  button:hover {
+    color: var(--main-light-color);
+  }
+}
