@@ -1,3 +1,14 @@
+.typewriter_hero {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 10px;
+}
+
+.typewriter_hero h1 {
+  align-self: flex-end;
+}
+
 .cursor {
   position: relative;
   color: var(--accent-color);

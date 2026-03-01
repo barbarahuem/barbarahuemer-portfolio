@@ -1,16 +1,27 @@
+import { BrowserRouter, Route, Routes } from "react-router";
+
+import { Header } from "./components/Header"; 
+import { Footer } from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Imprint from "./pages/Imprint";
+
 import "./App.css";
-import TypewriterHero from "./components/TypewriterHero";
+
 
 function App() {
   return (
-    <div>
-      <TypewriterHero />
-      <p>
-        This website is my space to share skills, projects, and the experiences
-        that shaped me. However you found your way here, welcome — I’m glad you
-        did.
-      </p>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/imprint" element={<Imprint />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

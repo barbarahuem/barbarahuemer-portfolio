@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 import "./TypewriterHero.css";
 
 const TypewriterHero = () => {
@@ -35,10 +36,8 @@ const TypewriterHero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <div
-      style={{ flexDirection: "column", alignItems: "center", height: "100px" }}
-    >
-      <h1 style={{ display: "inline", margin: 0, fontFamily: "monospace" }}>
+    <div className="typewriter_hero">
+      <h1>
         {text}
         <span className="cursor">|</span>
       </h1>
