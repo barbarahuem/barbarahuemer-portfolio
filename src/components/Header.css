@@ -38,10 +38,10 @@ header a {
 .header_img_container {
   display: flex;
   justify-content: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: var(--main-light-color);
+  width: 40px;
+  height: 40px;
 }
 
 .header_img {

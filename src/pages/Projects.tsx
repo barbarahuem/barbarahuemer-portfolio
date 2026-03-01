@@ -2,10 +2,10 @@ import "./Projects.css";
 
 import { Link } from "react-router";
 
-import pöllhuber from "../assets/images/pöllhuber.png";
-import mocoro from "../assets/images/mocoro.png";
-import nutrix from "../assets/images/nutrix.png";
-import photoApp from "../assets/images/photo-app.png";
+import pöllhuber from "../assets/images/pöllhuber.webp";
+import mocoro from "../assets/images/mocoro.webp";
+import nutrix from "../assets/images/nutrix.webp";
+import photoApp from "../assets/images/photo-app.webp";
 
 function Projects() {
   const projects = [
@@ -58,10 +58,16 @@ function Projects() {
         {projects.map((project, index) => (
           <div key={index} className="grid_item">
             <div className="image_container">
-              <img src={project.image} alt={`Project ${project.description}`} />
+              <img
+                src={project.image}
+                alt={`Project ${project.description}`}
+                loading="lazy"
+                width={800}
+                height={450}
+              />
             </div>
             <div className="project_description">
-              <h3>{project.name}</h3>
+              <h2>{project.name}</h2>
               <p>{project.description}</p>
               {project.link && <Link to={project.link}>View Project</Link>}
             </div>

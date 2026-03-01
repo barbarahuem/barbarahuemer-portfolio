@@ -1,8 +1,8 @@
 .typewriter_hero {
   display: flex;
   justify-content: center;
-  height: 100px;
-  margin: 10px;
+  align-items: center;
+  height: 150px;
 }
 
 .typewriter_hero h1 {
@@ -19,5 +19,11 @@
 @keyframes blink {
   50% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .typewriter_hero h1 {
+    font-size: 1.8em;
   }
 }

@@ -20,6 +20,7 @@
 @font-face {
   font-family: inconsolata;
   src: url(./assets/font/Inconsolata_SemiExpanded-Bold.ttf);
+  font-display: swap;
 }
 
 a {
@@ -69,12 +70,15 @@ button:hover {
     color: var(--main-dark-color);
     background-color: var(--main-light-color);
   }
+
   a {
     color: var(--main-dark-color);
   }
+
   button {
     color: var(--main-dark-color);
   }
+
   button:hover {
     color: var(--main-light-color);
   }

@@ -2,7 +2,7 @@
   text-align: left;
 }
 
-.projects h3 {
+.projects h2 {
   margin-top: 0;
 }
 
@@ -12,7 +12,7 @@
 
 .projects_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 4fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   margin-top: 3rem;
   gap: 3rem;
 }
@@ -44,6 +44,12 @@
   .grid_item {
     flex-direction: column; 
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects_grid {
+     grid-template-columns: repeat(auto-fill, minmax(100%, 0fr)); 
   }
 }
 
