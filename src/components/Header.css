@@ -5,7 +5,7 @@ header {
   left: 0;
   z-index: 1000;
 
-  font-size: 1em;
+  font-size: 1.2em;
 
   background-color: var(--main-dark-color);
   background: rgba(19, 19, 19, 0.2);
@@ -15,7 +15,7 @@ header {
   border-bottom: 1.5px solid rgba(126, 125, 125, 0.3);
 }
 
-header nav {
+.header_nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,11 +23,11 @@ header nav {
   height: 40px;
 }
 
-header nav ul {
+.header_links {
   list-style: none;
   flex-direction: row;
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   padding-left: 0;
 }
 

@@ -3,6 +3,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-top: 3rem;
 }
 
 .skills_grid_item {

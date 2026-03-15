@@ -9,18 +9,19 @@ function About() {
         <p>
           I’m a <span>curious and versatile person</span> with experience in
           packaging technology, prepress, print management, floristry interior
-          consulting and web development. Each step shaped how I work, blending
-          precision, creativity, and practical solutions. What has always stayed
-          the same is my love for creating.
+          consulting and web development. Each step has shaped my way of working
+          by combining precision, creativity, and practical problem solving.
+          What has remained constant throughout this process is my strong
+          interest in creating new things.
         </p>
         <p>
           Whether with my hands or my laptop,
           <span> I enjoy bringing ideas to life</span>. Over time, this passion
-          has led me toward design and digital spaces. For me, good design isn’t
-          just about looks: it’s about clarity, usability, and making people
-          feel comfortable when they interact with something. That’s why I love
-          building websites that balance aesthetic appeal with intuitive user
-          experience.
+          has led me toward design and digital spaces. For me, good design is
+          not only about visual appearance, but also about clarity, usability,
+          and creating a sense of comfort during interaction. This perspective
+          motivates my interest in designing websites that combine aesthetic
+          quality with an intuitive user experience.
         </p>
         <p>
           Outside the digital world,{" "}
@@ -28,9 +29,8 @@ function About() {
             I keep my creativity alive through knitting, sketching, or
             experimenting with new ideas
           </span>
-          . I also have a weakness for coffee, enjoy exploring new cities
-          (especially their supermarkets), and recharge best while hiking in
-          nature.
+          . I also have a weakness for coffee, enjoy exploring new cities, and
+          recharge best while hiking in nature.
         </p>
       </div>
       <div>
@@ -38,12 +38,12 @@ function About() {
         <p>
           My professional path has evolved from mastering industrial production
           logic to becoming a versatile software engineer. Through my work at{" "}
-          <span>Dynatrace</span> and <span>andamp GmbH</span>, I learned how to
-          build reusable design systems and scalable web applications using
-          React and TypeScript. I also gained experience managing the full
-          product lifecycle, which included designing interfaces in{" "}
-          <span>Figma</span> and handling deployments and automated testing with
-          tools like <span>Jest, Pytest, and Azure</span>. My early career at{" "}
+          <span>Dynatrace</span> and <span>andamp GmbH</span>, I built reusable
+          design systems and scalable web applications using React and
+          TypeScript. I also gained experience managing the full product
+          lifecycle, which included designing interfaces in <span>Figma</span>{" "}
+          and handling deployments and automated testing with tools like{" "}
+          <span>Jest, Pytest, and Azure</span>. My early career at{" "}
           <span>Mondi Grünburg</span> taught me the fundamentals of workflow
           optimization and strict quality standards. Additionally, my time as a
           tutor and research assistant allowed me to develop a deeper

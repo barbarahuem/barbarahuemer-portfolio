@@ -5,7 +5,7 @@ import "./Header.css";
 export function Header() {
   return (
     <header>
-      <nav>
+      <nav className="header_nav">
         <div className="header_img_container">
           <img
             src="/icon.svg"
@@ -16,17 +16,10 @@ export function Header() {
             fetchPriority="high"
           />
         </div>
-        <ul>
-          <li>
-            <NavLink to="/">home</NavLink> |
-          </li>
-          <li>
-            <NavLink to="/about">about</NavLink> |
-          </li>
-          <li>
-            <NavLink to="/projects">projects</NavLink>
-          </li>
-        </ul>
+        <div className="header_links">
+          <NavLink to="/">home</NavLink>|<NavLink to="/about">about</NavLink>|
+          <NavLink to="/projects">projects</NavLink>
+        </div>
       </nav>
     </header>
   );

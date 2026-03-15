@@ -49,6 +49,16 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.7em;
+  line-height: 1.1;
+}
+
 button {
   padding: 0.75em 1.5em;
   border: none;
